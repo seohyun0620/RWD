@@ -23,7 +23,7 @@ body {
 }
 
 /* 유연한 미디어 */
-img {
+img { /*width:100% 기준으로 height는 자동으로 조절 */
   max-width: 100%;
   height: auto;
 }
