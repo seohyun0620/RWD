@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+
+.group1{
+  background-color: gold;
+}
+.group2{
+  background-color: pink;
+}
+.group3{
+  background-color: lightgreen;
+}
+.group4{
+  background-color: skyblue;
+}
+.group5{
+  background-color: salmon;
+}
+.group6{
+  background-color: violet;
+}
+.group7{
+  background-color:aquamarine ;
+}
+.group8{
+  background-color: lightseagreen;
+}
+.group9{
+  background-color:mediumpurple;
+}
+.group10{
+  background-color: midnightblue;
+}
+.group11{
+  background-color: olive;
+}
+.group12{
+  background-color: yellow;
+}
+/* 모든 디바이스 */
+.container{
+  background-color: silver;
+  border: 1px solid red;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 12px 12px;
+} 
+/* ^ : div중에서 클래스 값이 group으로 시작하는것 */
+div[class*="group"]{
+  width: 100%;
+  height: 50px;
+  margin: 12px 0;
+  padding: 0 12px;
+}
+/* 768px이상일 때만 조건문 해석하겟다 */
+@media(min-width:768px){
+  div[class*="group"]{
+  width: 50%;
+  height: 100px;
+  }
+}
+@media(min-width:1280px){
+  div[class*="group"]{
+  width: 25%;
+  height: 200px;
+  }
+}
