@@ -478,7 +478,6 @@ input[type="search"] {
     display: flex;
     flex-flow: column nowrap;
   }
-}
 
 /* 모바일 Medium Size (640px 이상) */
 @media (min-width: 640px) and (max-width: 767px) {
