@@ -157,6 +157,28 @@ background-position: 0 0;
   /* background:lightgreen; */
   grid-area: book;
 }
+.book__cover{
+  width: 80%; /* 20% 남는 영역을 절반씩 나누어 왼쪽,오른쪽 여백 균일하게 배치(margin auto)하여 가운데에 있는 것 처럼 느껴짐 */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.book__coverCaption{
+  margin-top: var(--spacing-sm);
+  line-height: 1.6;
+}
+.book__info{
+  /* background: skyblue; */
+  text-align: center;
+  margin-top: var(--spacing-sm);
+}
+.book__info *{
+  display: inline;
+}
+.ratingStar{
+  display: block;
+  font-size: var(--text-xl);
+}
 /* 공통 새소식 */
 .news{
   /* background:yellow; */
