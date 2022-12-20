@@ -199,6 +199,8 @@ background-position: 0 0;
   margin-top: var(--spacing-base);
   text-align: right;
 }
+/* 반응형 Iframe */
+
 /* 공통 게시판 */
 .board{
   /* background:lightsalmon; */
@@ -401,7 +403,7 @@ background-position: 0 0;
     max-width: var(--container-width);
     margin-left: auto;
     margin-right: auto;
-    border: 5px solid red;
+    /* border: 5px solid red; */
     grid-template-columns: repeat(12, 1fr);
     grid-template-areas:  "news news news news news news news news news news news news"
                           "book book book book twitter twitter twitter twitter twitter favorite favorite favorite"
